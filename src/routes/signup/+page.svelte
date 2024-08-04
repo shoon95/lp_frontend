@@ -1,11 +1,8 @@
 <!-- component -->
 <script 
-defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js">
-    document.addEventListener("alpine:init", () => {
-        Alpine.data("app", () => ({
-            isLoginPage: true,
-        }));
-    });</script>
+    defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js">
+
+</script>
 
 <main class="relative min-h-screen w-full bg-white">
     <div class="p-6" x-data="app">
